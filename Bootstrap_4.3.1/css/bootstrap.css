@@ -554,6 +554,8 @@ pre code {
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
+  padding-bottom: 0.75rem;
+  padding-top: 0.75rem;
   margin-right: auto;
   margin-left: auto;
 }
@@ -591,6 +593,7 @@ pre code {
 }
 
 .row {
+  padding-bottom: 1rem;
   display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
@@ -618,8 +621,8 @@ pre code {
 .col-xl-auto {
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 .col {
@@ -4566,6 +4569,8 @@ input[type="button"].btn-block {
   background-clip: border-box;
   border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .card > hr {
@@ -4586,7 +4591,10 @@ input[type="button"].btn-block {
 .card-body {
   -ms-flex: 1 1 auto;
   flex: 1 1 auto;
-  padding: 1.25rem;
+  padding-bottom: 0.25rem;
+  padding-top: 0.25rem;
+  padding-right: 20px;
+  padding-left: 20px;
 }
 
 .card-title {
